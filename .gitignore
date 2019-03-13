@@ -1,0 +1,31 @@
+# IDE
+.vscode
+.idea/
+
+# Go prof output
+*.prof
+
+# Go test output
+*/*.test
+*/*.out
+
+# Build output
+build
+dist
+
+# Dependencies
+vendor
+glide.lock
+
+# gomobile compilation output
+*.aar
+*.jar
+
+# Backup copies
+*~
+*.bak
+
+.#*
+
+# Project specific
+Operachain_*
